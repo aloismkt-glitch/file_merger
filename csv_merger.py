@@ -50,7 +50,7 @@ root = tk.Tk()
 root.title('CSV 병합 프로그램')
 root.geometry('500x450')
 
-tk.Label(root, text='사용방법: 합치려는 txt 폴더 안에 본 파일을 넣고 실행하면 된다.').pack(pady=10)
+tk.Label(root, text='사용방법: 합치려는 csv 폴더 안에 본 파일을 넣고 실행하세요.').pack(pady=10)
 
 frame = tk.Frame(root)
 frame.pack(pady=5)
